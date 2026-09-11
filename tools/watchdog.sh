@@ -65,7 +65,7 @@ snapshot_persistence() {
              /etc/hosts "$HOME/.ssh/authorized_keys" "$HOME/.ssh/config" /etc/zshrc /etc/zprofile /etc/bashrc; do
       [[ -f "$f" ]] && echo "file:$f:$(sha "$f")"
     done
-    echo "sudoers.d:$(ls -la /etc/sudoers.d 2>/dev/null | shasum -a 256 | awk '{print $1}')"
+    echo "sudoers.d:$( (ls -1 /etc/sudoers.d 2>/dev/null; find /etc/sudoers.d -type f -exec shasum -a 256 {} + 2>/dev/null) | shasum -a 256 | awk '{print $1}')"
   } | sort
 }
 
