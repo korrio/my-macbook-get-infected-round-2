@@ -1,0 +1,4 @@
+birth=2026-08-10 08:40:58 mod=2026-08-10 08:40:58 size=9 /Users/korrio/.passphrase
+birth=2026-08-10 08:41:00 mod=2026-08-10 08:41:00 size=33 /Users/korrio/.txid
+birth=2026-08-10 08:40:50 mod=2026-08-10 08:40:50 size=14469 /Users/korrio/Desktop/_quarantine-2026-08-19/com.qxgpjsivitldyooj.plist
+birth=2026-08-10 08:49:41 mod=2026-08-10 08:49:41 size=119 /Users/korrio/Library/Preferences/com.apple.settings.PrivacySecurity.extension.plist

