@@ -1,0 +1,33 @@
+# Indicators watched by watchdog.sh. One per line. Lines starting with # are ignored.
+#   file:<path>       alert if the path exists (~ is expanded)
+#   net:<domain|ip>   alert on any established connection to it (domains are resolved each run)
+#   pattern:<regex>   alert if any LaunchAgent/LaunchDaemon plist body matches (case-insensitive ERE)
+#   label:<regex>     alert if a loaded launchd label matches
+# --- from incident 2026-08-10 (EtherHiding AppleScript backdoor) ---
+file:~/.passphrase
+file:~/.txid
+file:~/.helper
+file:~/.agent
+file:/tmp/.helper
+file:/tmp/.agent
+file:/tmp/.pass
+file:~/Library/LaunchAgents/com.finder.helper.plist
+file:/Library/LaunchDaemons/com.finder.helper.plist
+file:~/Library/LaunchAgents/com.qxgpjsivitldyooj.plist
+net:jse8x92s.me
+net:172.67.204.237
+net:104.21.52.225
+label:^com\.qxgpjsivitldyooj$
+label:^com\.finder\.helper$
+# --- generic: things a legitimate LaunchAgent basically never does ---
+pattern:base64
+pattern:osascript
+pattern:/tmp/
+pattern:/var/tmp/
+pattern:/private/tmp/
+pattern:nohup
+pattern:\beval\b
+pattern:python[0-9.]* -c
+pattern:curl 
+pattern:wget 
+pattern:\| *(ba|z)?sh\b

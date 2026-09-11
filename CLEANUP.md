@@ -41,3 +41,14 @@ Do these from a device you trust, in this order:
 - Because an `openshell` remote shell was available to the attacker, a **clean reinstall of macOS** (erase-all-content-and-settings, then restore only documents, not apps/settings) is the only way to be certain nothing else was left behind.
 - Keep `com.korrio.security-watchdog` running; consider adding a rule that alerts on any LaunchAgent containing `base64`/`osascript`, and on the existence of `~/.passphrase` / `~/.txid`.
 - Enable "Full Disk Access" only for tools that need it; do not grant Terminal/iTerm blanket FDA.
+
+## Watchdog v2 (deployed 2026-09-11)
+
+`~/.security-watchdog/watchdog.sh` was rewritten (copy in `tools/`). Every 5 minutes it now checks, in ~1-2 s:
+persistence baseline diff (plists, crontab, login items, shell rc, /etc/hosts, ssh authorized_keys, sudoers.d),
+launchd plists containing `base64`/`osascript`/`curl`/`/tmp/`/`nohup`/`eval` regardless of baseline,
+IOC files (`~/.passphrase`, `~/.txid`, AMOS paths), known-bad labels, launchd-parented shells or
+`base64 -d` in any command line, processes running from temp dirs, established connections to the C2
+(`jse8x92s.me` re-resolved each run), `tccutil reset` in the unified log, and high CPU.
+Indicators live in `~/.security-watchdog/iocs.txt`. `--self-test` fires a notification; `--accept-baseline`
+after a deliberate install. Verified by planting an inert plist + `~/.txid`: both rules fired.
